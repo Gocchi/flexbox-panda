@@ -1,0 +1,114 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	background: #F4A259;
+}
+.container{
+	display: flex;
+
+
+}
+.container-nav{
+	display: flex;
+	background: #D9594C;
+	width: 100%;
+	font-family: 'Quicksand', sans-serif;
+	padding: 10px;
+}
+.row {
+  flex-direction: row;
+  color:#69A197;
+}
+
+.column{
+	flex-direction: column;
+}
+
+h1{
+	font-size: 45px;
+	background: #D9594C;
+	color: white;
+	font-family: 'Black Ops One', cursive;
+}
+.item{
+	background: #D9594C;
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+}
+.ac-f-start{
+	align-content: flex-start;
+}
+
+.ai-f-end{
+	align-items:flex-end;
+}
+
+.jc-f-end{
+	justify-content: flex-end;
+}
+
+.jc-s-between{
+	justify-content: space-between;
+}
+.jc-center{
+	justify-content: center;
+}
+
+.ai-f-end{
+	align-self: flex-end;
+}
+.ai-f-start{
+	align-self: flex-start;
+}
+.as-auto{
+	align-self: auto;
+}
+
+.container-galery{
+	display: flex;
+	width: 100%;
+
+}
+
+.img{
+	margin: 20px; 
+	width: 250px;
+	height: 250px;
+}
+
+.container-button{
+	display: flex;
+	width: 100%;
+}
+
+.button{
+	margin: 20px;
+	padding: 10px;
+	font-size: 30px;
+	border-radius: 10px;
+	border: solid #E55934;
+	text-decoration: none;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+}
+.button:hover{
+	color: #D9594C;
+}
+
+.item:hover{
+	color: #F4A259;
+}
+
+.container-p{
+	display: flex;
+	width: 100%;
+}
+
+.item-p{
+	margin: 10px;
+	color:white;
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Poiret One', cursive;
+}
