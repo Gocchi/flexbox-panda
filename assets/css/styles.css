@@ -5,7 +5,7 @@
 }
 .container{
 	display: flex;
-
+	width: 100%;
 
 }
 .container-nav{
@@ -16,8 +16,8 @@
 	padding: 10px;
 }
 .row {
-  flex-direction: row;
-  color:#69A197;
+ 	flex-direction: row;
+ 	color:#69A197;
 }
 
 .column{
@@ -29,6 +29,7 @@ h1{
 	background: #D9594C;
 	color: white;
 	font-family: 'Black Ops One', cursive;
+
 }
 .item-nav{
 	background: #D9594C;
@@ -57,6 +58,9 @@ h1{
 .jc-center{
 	justify-content: center;
 }
+.jc-s-around{
+	justify-content: space-around;
+}
 
 .ai-f-end{
 	align-self: flex-end;
@@ -71,14 +75,15 @@ h1{
 	align-self: flex-end;
 }
 
+
 .container-galery{
 	display: flex;
-	width: 100%;
+
 }
 .img{
 	margin: 20px; 
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 	
 }
 .container-button{
@@ -116,7 +121,11 @@ h1{
 	position: relative;
 	font-size: 25px; 
 	color: black;
-}
 
+}
+span{
+	width: 20px;
+	height: 20px;
+}
 
 
