@@ -30,11 +30,14 @@ h1{
 	color: white;
 	font-family: 'Black Ops One', cursive;
 }
-.item{
+.item-nav{
 	background: #D9594C;
 	color: white;
 	font-size: 25px;
 	text-decoration: none;
+}
+.item-nav:hover{
+	color: #F4A259;
 }
 .ac-f-start{
 	align-content: flex-start;
@@ -71,15 +74,13 @@ h1{
 .container-galery{
 	display: flex;
 	width: 100%;
-
 }
-
 .img{
 	margin: 20px; 
 	width: 250px;
 	height: 250px;
+	
 }
-
 .container-button{
 	display: flex;
 	width: 100%;
@@ -98,16 +99,10 @@ h1{
 .button:hover{
 	color: #D9594C;
 }
-
-.item:hover{
-	color: #F4A259;
-}
-
 .container-p{
 	display: flex;
 	width: 100%;
 }
-
 .item-p{
 	margin: 10px;
 	color:white;
@@ -115,3 +110,13 @@ h1{
 	font-size: 20px;
 	font-family: 'Poiret One', cursive;
 }
+
+.close{
+	margin-top: 20px; 
+	position: relative;
+	font-size: 25px; 
+	color: black;
+}
+
+
+
