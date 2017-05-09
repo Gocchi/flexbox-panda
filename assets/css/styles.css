@@ -64,6 +64,9 @@ h1{
 .as-auto{
 	align-self: auto;
 }
+.as-f-end{
+	align-self: flex-end;
+}
 
 .container-galery{
 	display: flex;
